@@ -1,0 +1,27 @@
+@import 'reset-css';
+@import './fonts.scss';
+@import './options.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+
+body.theme-dark {
+  background-color: $dark-bg-1;
+  color: $dark-text;
+}
+
+a,
+input,
+textarea {
+  font-family: 'Roboto';
+}
+
+@import './container.scss';
